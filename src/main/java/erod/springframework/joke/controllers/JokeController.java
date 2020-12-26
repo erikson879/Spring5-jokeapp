@@ -13,7 +13,6 @@ public class JokeController {
 
 	@Autowired
 	public JokeController(JokeService jokeService) {
-		super();
 		this.jokeService = jokeService;
 	}
 	@RequestMapping({"/",""})
